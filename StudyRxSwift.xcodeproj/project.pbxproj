@@ -15,6 +15,7 @@
 		E0D5787B1F7E24E1007B20B9 /* StudyRxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D5787A1F7E24E1007B20B9 /* StudyRxSwiftTests.swift */; };
 		E0D5788B1F7E28B3007B20B9 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0D578871F7E28B3007B20B9 /* RxCocoa.framework */; };
 		E0D5788C1F7E28B3007B20B9 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0D578881F7E28B3007B20B9 /* RxSwift.framework */; };
+		E0F2191D1F82289D003C7CBD /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F2191C1F82289D003C7CBD /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		E0D578871F7E28B3007B20B9 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		E0D578881F7E28B3007B20B9 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		E0D578891F7E28B3007B20B9 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		E0F2191C1F82289D003C7CBD /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				E0D5786C1F7E24E1007B20B9 /* Assets.xcassets */,
 				E0D5786E1F7E24E1007B20B9 /* LaunchScreen.storyboard */,
 				E0D578711F7E24E1007B20B9 /* Info.plist */,
+				E0F2191C1F82289D003C7CBD /* ViewModel.swift */,
 			);
 			path = StudyRxSwift;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0D578681F7E24E1007B20B9 /* ViewController.swift in Sources */,
+				E0F2191D1F82289D003C7CBD /* ViewModel.swift in Sources */,
 				E0D578661F7E24E1007B20B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
